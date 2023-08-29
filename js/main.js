@@ -6,6 +6,11 @@
  */
 "use strict";
 
-let msg = "Bonjour le monde";
+// Récupère tous les paragraphes du document
+let tabPara = document.querySelectorAll("p");
 
-console.log(msg);
+//Récupérer le premier bouton avec la classe "Ajouter"
+let btAjouter = document.querySelectorAll("button.ajouter");
+
+//Affiche le contenu des variables dans la console
+console.log(tabPara, btAjouter);
