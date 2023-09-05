@@ -19,3 +19,16 @@ btAjouter.addEventListener("click", () => {
     // Vide le champ texte
     txtArticle.value = "";
 });
+
+// Demande l'âge de visiteur
+let age = prompt("Quel est ton âge ?");
+// Transforme age en entier
+age = parseInt(age);
+// Si l'âge n'est pas un nombre => erreur
+if(isNaN(age)) {
+    alert("Entrer un nombre !");
+} else {
+    // Affiche l'âge du visiteur
+    alert(`Tu as ${age} ans`);
+}
+
